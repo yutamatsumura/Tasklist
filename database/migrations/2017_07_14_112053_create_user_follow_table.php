@@ -31,3 +31,4 @@ class CreateUserFollowTable extends Migration
     {
         Schema::drop('user_follow');
     }
+}
