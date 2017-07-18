@@ -4,7 +4,7 @@
     @if (Auth::check())
         <?php $user = Auth::user(); ?>
         <div class="row">
-            <aside class="col-xs-4">
+            <aside class="col-xs-12 col-lg-4">
                 {!! Form::open(['route' => 'microposts.store']) !!}
                     <div class="form-group">
                         {!! Form::textarea('content', old('content'), ['class' => 'form-control', 'rows' => '5']) !!}
